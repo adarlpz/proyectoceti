@@ -14,7 +14,7 @@ if ($conn->connect_error) {
 }
 
 // Directorio donde se guardarán los videos
-$upload_dir = "../almacenamiento/public/uploads/";
+$upload_dir = "https://tekkure.com/proyecto/almacenamiento/public/uploads/";
 
 // Verificar si se subió un archivo
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["video"])) {
